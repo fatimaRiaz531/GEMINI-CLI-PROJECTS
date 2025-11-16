@@ -1,0 +1,14 @@
+/* You can add custom styles here if needed, though most styling is handled by Tailwind CSS via the CDN link in index.html. */
+
+body {
+    font-family: 'Inter', sans-serif; /* A nice, modern font. Requires a font import in the HTML to work, but serves as an example. */
+}
+
+/* Example of a custom component style */
+.task-item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.task-item:hover {
+    transform: translateY(-2px);
+}
